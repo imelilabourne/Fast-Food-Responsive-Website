@@ -1,0 +1,117 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #F5F5F2;
+}
+
+.main-header .navBar .login {
+    border: 1px solid #56CCF2;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
+.main-header h1 {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.pinkGradient {
+    position: block;
+    background: linear-gradient(180deg, rgb(21, 102, 5) 0%, rgba(93, 236, 93, 0.548) 65.8%, rgba(90, 94, 89, 0) 100%);
+    height: 229px;
+    margin: 0 20px;
+    margin-top: 200px;
+}
+
+.container h1 {
+    position: absolute;
+    width: 328px;
+    height: 87px;
+    left: 34px;
+    top: 407px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 60px;
+    color: rgb(16, 146, 59);
+}
+
+.container p {
+    position: fixed;
+    width: 500px;
+    height: 40px;
+    left: 34px;
+    top: 484px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 47px;
+    color: rgb(63, 57, 61);
+}
+
+@media screen and (max-width: 768px) {
+    .nav1 a {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .nav2 div {
+        display: none;
+    }
+}
+
+.navBar {
+    display: flex;
+}
+
+.nav1 a {
+    text-decoration: none;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 20px;
+    color: black;
+}
+
+.nav2 div {
+    width: 25px;
+    background-color: black;
+    height: 1px;
+    margin: 10px;
+    right: 10px;
+}
+
+.imgwrapper {
+    width: 500px;
+    height: 500px;
+    background-image: url(./burger.png);
+    position: absolute;
+    right: 0px;
+    top: 180px;
+}
+
+@media screen and (max-width: 768px) {
+    .imgwrapper {
+        display: none;
+        transition: 1s;
+    }
+}
+
+img:hover {
+    transform: scale(1.1);
+}

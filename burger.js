@@ -8,3 +8,14 @@ const navOpen = () => {
 }
 
 navOpen();
+
+const menuList = document.querySelector(".menu");
+
+fetch('burger.json')
+    .then(res => res.json())
+    .then(data => {
+        data.forEach(menu => {
+            console.log(menu.title);
+            console.log(menu.id);
+        });
+    })

@@ -82,6 +82,7 @@ body {
         align-items: center;
         right: 0px;
         z-index: 1;
+        transform: translateX(100%);
     }
     .nav-links a {
         padding: 0px 70px;
@@ -91,7 +92,7 @@ body {
         color: white;
     }
     .nav-active {
-        transform: translateX(100%);
+        transform: translateX(0%);
     }
     body {
         overflow-x: hidden;
@@ -145,10 +146,9 @@ body {
     top: 180px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .imgwrapper {
         display: none;
-        transition: 1s;
     }
 }
 

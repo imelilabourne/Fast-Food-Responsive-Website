@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+aside {
+    margin: 0;
+    width: 350px;
+    height: 100vh;
+    margin-top: 0px;
+    background-color: rgb(228, 230, 115);
+}
+
+aside>h1 {
+    margin: 0;
+    padding: 40px 0px;
+    text-align: center;
+    color: rgb(17, 16, 16);
+    text-transform: uppercase;
+}

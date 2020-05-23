@@ -1,13 +1,16 @@
 [{
         "title": "Regular Burger",
-        "id": 1
+        "id": 1,
+        "image": "./images/fris.jpg"
     },
     {
         "title": "Cheese Burger",
-        "id": 2
+        "id": 2,
+        "image": "./images/meal2.jpg"
     },
     {
         "title": "Fries",
-        "id": 3
+        "id": 3,
+        "image": "./images/meal3.jpg"
     }
 ]

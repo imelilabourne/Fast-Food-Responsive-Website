@@ -1,0 +1,125 @@
+
+.main-header {
+    display: flex;
+    background: linear-gradient(90deg, #fbd510 50%, #c21010 50%);
+    height: 4.5rem;
+}
+
+.main-header h1,
+.main-header a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #f10e0e;;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 8vh;
+        height: 100%;
+        width: 50%;
+        background-color:#FBD510;
+        justify-content: space-around;
+        align-items: center;
+        right: 0px;
+        z-index: 1;
+        transform: translateX(100%);
+    }
+    .nav-links a {
+        padding: 0px 70px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .nav-links:hover {
+        color: white;
+    }
+    .nav-active {
+        transform: translateX(0%);
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .menuRight, .navLeft input{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .nav2 div {
+        display: none;
+    }
+}
+
+.navRight{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.navLeft{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Seymour One', sans-serif;
+}
+
+.navLeft input{
+    height: 30px;
+    width: 300px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.nav-links a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    margin-left: 50px;
+    justify-content: space-evenly;
+    color:white;
+}
+
+.nav-links a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.nav2>div {
+    width: 25px;
+    background-color: black;
+    height: 1px;
+    margin: 10px;
+    right: 0px;
+    /* transform: translateX(100%); */
+    box-sizing: border-box;
+}
+
+.nav2 {
+    cursor: pointer;
+}
+
+/* Footer */
+footer{
+    margin: 20px;
+}
+
+footer h2,h5{
+    color: #FF2B2B;
+    font-family: Black Han Sans;
+}
+
+.fa{
+    width: 50px;
+}
+/* //Footer */
